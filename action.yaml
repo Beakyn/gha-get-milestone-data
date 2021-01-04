@@ -1,0 +1,12 @@
+name: "Get Milestone Data"
+description: "Get Milestone Data"
+inputs:
+  milestone:
+    description: "Milestone ID number to be fetched"
+    required: true
+  repository:
+    description: "owner/repository name"
+    required: true
+runs:
+  using: "node12"
+  main: "./index.js"
