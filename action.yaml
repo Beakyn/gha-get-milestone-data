@@ -7,6 +7,9 @@ inputs:
   repository:
     description: "owner/repository name"
     required: true
+outputs:
+  data:
+    description: "Milestone data JSON"
 runs:
   using: "node12"
   main: "./index.js"
