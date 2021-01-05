@@ -14,7 +14,7 @@ Create a workflow .yml file in your .github/workflows directory. An example work
 
 ## Outputs
 
-`release-notes`: Formatted release notes.
+`data`: Milestone data JSON.
 
 ## Example
 
