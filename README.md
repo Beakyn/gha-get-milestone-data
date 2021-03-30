@@ -22,7 +22,7 @@ Create a workflow .yml file in your .github/workflows directory. An example work
 
 ```yaml
 - name: Get milestone data
-  uses: Beakyn/gha-get-milestone-data@main
+  uses: Beakyn/gha-get-milestone-data@v1.0.1
   id: milestone-data
   env:
     GITHUB_TOKEN: ${{ github.token }}
